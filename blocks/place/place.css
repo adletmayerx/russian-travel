@@ -1,0 +1,29 @@
+.place {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    width: 928px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    width: 720px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    width: 288px;
+    gap: 32px;
+  }
+
+}

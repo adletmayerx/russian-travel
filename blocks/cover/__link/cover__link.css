@@ -1,0 +1,34 @@
+.cover__link {
+  width: 1184px;
+  min-height: 740px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    width: 1024px;
+    min-height: 640px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    width: 768px;
+    min-height: 480px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    width: 320px;
+    min-height: 200px;
+  }
+
+}
