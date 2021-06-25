@@ -18,6 +18,7 @@
   .place__website {
     width: 288px;
     align-self: flex-start;
+    margin-left: 16px;
   }
 
 }
