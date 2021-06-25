@@ -1,5 +1,5 @@
 .cover__link {
-  width: 1184px;
+  width: calc(100% - 96px);
   min-height: 740px;
   position: relative;
   display: flex;
@@ -9,25 +9,25 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 1280px) {
+  .cover__link {
+    width: 100%;
+    min-height: 640px;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   .cover__link {
-    width: 1024px;
-    min-height: 640px;
+    width: 100%;
+    min-height: 480px;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    width: 768px;
-    min-height: 480px;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  .cover__link {
-    width: 320px;
+    width: 100%;
     min-height: 200px;
   }
 

@@ -1,5 +1,5 @@
 .intro {
-  max-width: 690px;
+  width: calc(100% - 148px);
   margin: 92px auto 0 148px;
   display: flex;
   flex-direction: column;
@@ -7,10 +7,19 @@
   align-content: flex-start;
 }
 
+@media screen and (max-width: 1280px) {
+  .intro {
+    width: calc(100% - 48px);
+    margin: 0 auto 0 48px;
+    margin-top: 88px;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   .intro {
-    width: 720px;
-    margin: 0 auto 0 48px;
+    width: calc(100% - 48px);
+    margin: 0 auto;
     margin-top: 88px;
   }
 
@@ -18,16 +27,7 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 720px;
-    margin: 0 auto;
-    margin-top: 88px;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  .intro {
-    width: 288px;
+    width: calc(100% - 32px);
     margin: 0 auto;
     margin-top: 64px;
   }

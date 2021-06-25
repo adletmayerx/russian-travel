@@ -8,21 +8,21 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .place__title {
     width: 440px;
   }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .place__title {
     width: 340px;
   }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__title {
     width: 288px;
     font-size: 32px;

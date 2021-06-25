@@ -4,21 +4,21 @@
   gap: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .place__block {
     gap: 32px;
   }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .place__block {
     gap: 28px;
   }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__block {
     flex-direction: column;
     gap: 32px;

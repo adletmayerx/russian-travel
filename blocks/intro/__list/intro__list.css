@@ -5,20 +5,12 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  max-width: 690px;
+  width: 100%;
   margin-top: 33px;
 }
 
 @media screen and (max-width: 768px) {
   .intro__list {
-    width: 720px;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  .intro__list {
-    width: 288px;
     margin-top: 34px;
   }
 

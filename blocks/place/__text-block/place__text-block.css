@@ -1,5 +1,27 @@
 .place__text-block {
+  width: calc(100% - 500px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__text-block {
+    width: calc(100% - 472px);
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text-block {
+    width: calc(100% - 368px);
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .place__text-block {
+    width: 100%;
+  }
+
 }
