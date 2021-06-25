@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1280x) {
+@media screen and (max-width: 1280px) {
   .photo-grid__item {
     width: 100%;
   }
