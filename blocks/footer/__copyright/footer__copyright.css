@@ -6,11 +6,5 @@
   text-align: right;
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .footer__copyright {
-    line-height: 16px;
-  }
-
+  align-self: flex-end;
 }

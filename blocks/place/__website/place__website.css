@@ -7,14 +7,14 @@
   gap: 12px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__website {
     width: 352px;
   }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__website {
     width: 288px;
     align-self: flex-start;

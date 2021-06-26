@@ -9,7 +9,7 @@
   margin-top: 33px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro__list {
     margin-top: 34px;
   }

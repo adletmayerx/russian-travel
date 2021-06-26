@@ -8,22 +8,23 @@
   gap: 80px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .places {
     width: calc(100% - 96px);
   }
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .places {
-    width: calc(100% - 96px);
+    width: calc(100% - 48px);
     margin-top: 88px;
+    gap: 73px;
   }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .places {
     width: 100%;
     margin-top: 64px;

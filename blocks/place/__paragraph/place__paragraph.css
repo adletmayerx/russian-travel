@@ -5,22 +5,24 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 163%;
 }
 
 .place__paragraph:not(:first-of-type) {
   margin-top: 26px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place__paragraph {
     width: 100%;
   }
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
+    font-size: 16px;
+    line-height: 163%;
     width: 100%;
 
   }
@@ -31,11 +33,10 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     width: 100%;
     font-size: 16px;
-    line-height: 163%;
   }
 
   .place__paragraph:not(:first-of-type) {
