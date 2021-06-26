@@ -22,6 +22,8 @@
   .place__block {
     flex-direction: column;
     gap: 32px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
   }
 
 }
