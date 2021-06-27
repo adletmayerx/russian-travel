@@ -6,4 +6,4 @@
 
 В ближайшем будущем планируется сделать изменения во время брейкпойнтов более плавными.
 
-Проект выложен на gh-pages. Cсылка: https://asadrtdinov.github.io/russian-travel/index.html
+Проект доступен на gh-pages. Cсылка: https://asadrtdinov.github.io/russian-travel/index.html
