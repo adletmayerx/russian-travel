@@ -3,27 +3,22 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 48px;
 }
 
-@media screen and (max-width: 1279px) {
-  .place {
-    width: 100%;
-  }
-
+.place:not(:last-of-type) {
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1023px) {
-  .place {
-    width: 100%;
+  .place:not(:last-of-type) {
+    margin-bottom: 73px;
   }
 
 }
 
 @media screen and (max-width: 767px) {
-  .place {
-    width: 100%;
-    gap: 32px;
+  .place:not(:last-of-type) {
+    margin-bottom: 50px;
   }
 
 }

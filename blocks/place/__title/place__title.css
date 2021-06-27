@@ -6,21 +6,23 @@
   line-height: 76px;
   margin: 0;
   padding: 0;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 1279px) {
   .place__title {
     width: 440px;
+    margin-right: 32px;
   }
 
 }
 
 @media screen and (max-width: 1023px) {
   .place__title {
-    width: calc(100% - 32px);
-    margin: 0 auto;
+    width: 340px;
     font-size: 42px;
     line-height: 46px;
+    margin-right: 28px;
   }
 
 }
@@ -31,6 +33,8 @@
     font-size: 32px;
     line-height: 100%;
     margin-left: 16px;
+    margin-right: 0;
+    margin-bottom: 32px;
   }
 
 }

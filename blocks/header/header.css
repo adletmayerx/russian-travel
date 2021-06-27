@@ -5,13 +5,6 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1279px) {
-  .header {
-    width: calc(100% - 96px);
-  }
-
-}
-
 @media screen and (max-width: 1023px) {
   .header {
     width: calc(100% - 48px);
